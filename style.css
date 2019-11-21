@@ -1,0 +1,66 @@
+#root{
+  width:100%;
+}
+.container{
+  display:flex;
+  padding:10px;
+  background-color: brown;
+  border-radius:15px;
+}
+.pomoClock_container {
+  border-radius:15px;
+  display:flex;
+  background-color: black;
+  flex-direction: column;
+}
+
+.display_time{
+  display:flex;
+  border-radius:15px;
+  flex-direction: row;
+  background-color: orange;
+  align-items:center;
+  width:80%;
+  
+}
+
+.pomo-item {
+  padding:35px;
+}
+
+.breakSession_container {
+  background-color: red;
+
+  padding: 10px 5px 10px;
+}
+
+.breakSession_btn_add,
+.breakSession_btn_sub {
+  padding: 10px 26px;
+}
+
+
+#time{
+padding-left:180px;
+  font-size:200px;
+}
+
+.btn{
+  margin:2px;
+}
+
+
+#add_sub_buttons{
+  align-items:center;
+  text-align:center;
+}
+
+#break-label{
+  font-weight:900;
+}
+
+
+#buttonOptions{
+  display:flex;
+  justify-content:center;
+}
